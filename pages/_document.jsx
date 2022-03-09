@@ -79,10 +79,10 @@ export default function Document() {
           href="/apple-icon-180x180.webp"
         />
       </Head>
-      <body className="dark:text-gray-200 dark:bg-zinc-900 bg-gray-200 text-zinc-900">
+      <body className="animate-start animate-text-start dark:text-gray-200 dark:bg-zinc-900 bg-gray-200 text-zinc-900">
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

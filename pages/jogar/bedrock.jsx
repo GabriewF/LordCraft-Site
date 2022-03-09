@@ -43,13 +43,13 @@ export default function Home() {
           <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
             LordCraft 1.18.2
           </h1>
-          <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+          <p className="font-['MinecraftFiveBold'] animate-text-start text-3vw flex justify-center content-center text-slate-200">
             Aqui está o IP do servidor Bedrock!
           </p>
 
-          {/* Java Address */}
-          <div id="javaAddress" className="mt-4">
-            {/* Java */}
+          {/* Bedrock Address */}
+          <div id="bedrockAddress" className="mt-4">
+            {/* Bedrock */}
             <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
               <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
                 <span className="text-1.5vw font-['MinecraftFiveBold']">
@@ -69,7 +69,7 @@ export default function Home() {
               {/* Go back */}
               <Link
                 className="flex justify-center content-center text-slate-200"
-                href="/ip"
+                href="/jogar"
               >
                 <a
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
@@ -84,7 +84,7 @@ export default function Home() {
                       src="/back.svg"
                     />
                     <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                      Voltar a pagina inicial
+                      Voltar a pagina anterior
                     </span>
                   </button>
                 </a>
