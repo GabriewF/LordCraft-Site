@@ -4,8 +4,7 @@ require('dotenv').config()
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "imgix",
-    path: process.env.LOADER_PATH,
+    loader: "default",
   },
 };
 
