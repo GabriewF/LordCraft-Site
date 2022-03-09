@@ -1,12 +1,12 @@
 import Head from "next/head"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
   return (
     <container>
       <Head>
         {/* Metadata */}
-        <meta charset="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,58 +26,52 @@ export default function Home() {
         {/* Title */}
         <title>Pagina inicial | LordCraft</title>
       </Head>
+      {/* Container */}
       <div id="container">
-        <nav className="dark:bg-gradient-to-r dark:from-purple-900 dark:to-pink-900 bg-gradient-to-r from-purple-500 to-pink-500 px-2 sm:px-4 py-2.5 rounded">
-          <div className="container flex flex-wrap justify-between items-center mx-auto">
-            <Link href="/" className="flex items-center">
-              <a className="text-2xl font-['MinecraftFiveBold'] self-center font-semibold whitespace-nowrap text-slate-900 dark:text-slate-200">
-                LordCraft
-              </a>
-            </Link>
-            <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false"
-            >
-              <span className="sr-only">Open main menu</span>
-            </button>
-            <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-              {/* <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                <li>
-                  <Link href="#">
-                    <a
-                      className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                      aria-current="page"
-                    >
-                      Pagina Inicial
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                      Sobre
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                      Serviçõs
-                    </a>
-                  </Link>
-                </li>
-              </ul> */}
-            </div>
-          </div>
-        </nav>
-        <div
-          id="title"
-          className="bg-gradient-to-r from-sky-500 to-indigo-500 dark:bg-gradient-to-r dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg "
-        >
-          <h1 className="font-['MinecraftTen'] text-7xl flex justify-center content-center text-slate-900 dark:text-slate-200">
+        {/* Title */}
+        <div id="title" className="bg-gradient-to-rb from-sky-500 to-indigo-500 dark:bg-gradient-to-rb dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg " >
+          {/* Title */}
+          <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
             LordCraft 1.18.2
           </h1>
-          <p className="font-['MinecraftFiveBold'] text-5xl flex justify-center content-center text-slate-900 dark:text-slate-200">
+          <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
             Um servidor no Minecraft!
           </p>
+
+          {/* Link Buttons */}
+          <div id="linkButtons">
+            <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+              {/* How to play */}
+              <Link className="flex justify-center content-center text-slate-200" href="/ip">
+                <a className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+                  <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Creeper" src="/creeper.svg" />
+                    <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                      Jogar
+                    </span>
+                  </button>
+                </a>
+              </Link>
+              {/* Twitch */}
+              <a href="https://www.twitch.tv/LordLIVE_/" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+                <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Twitch" src="/twitch.svg" />
+                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                    Twitch
+                  </span>
+                </button>
+              </a>
+              {/* Youtube */}
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+                <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Youtube" src="/youtube.svg" />
+                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                    Youtube
+                  </span>
+                </button>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </container>
