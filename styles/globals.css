@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: MinecraftTen;
+    src: url(/MinecraftTen.woff2);
+  }
+  @font-face {
+    font-family: MinecraftFiveBold;
+    src: url(/MinecraftFive-Bold.woff2);
+  }
+}
