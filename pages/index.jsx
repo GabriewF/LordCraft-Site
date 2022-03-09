@@ -29,7 +29,7 @@ export default function Home() {
       {/* Container */}
       <div id="container">
         {/* Title */}
-        <div id="title" className="bg-gradient-to-rb from-sky-500 to-indigo-500 dark:bg-gradient-to-rb dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg " >
+        <div id="title" className="bg-gradient-to-r from-sky-500 to-indigo-500 dark:bg-gradient-to-r dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg " >
           {/* Title */}
           <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
             LordCraft 1.18.2
@@ -53,7 +53,7 @@ export default function Home() {
                 </a>
               </Link>
               {/* Twitch */}
-              <a href="https://www.twitch.tv/LordLIVE_/" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+              <a href="https://www.twitch.tv/LordLIVE_" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
                 <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                   <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Twitch" src="/twitch.svg" />
                   <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
@@ -62,11 +62,20 @@ export default function Home() {
                 </button>
               </a>
               {/* Youtube */}
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
                 <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                   <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Youtube" src="/youtube.svg" />
                   <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
                     Youtube
+                  </span>
+                </button>
+              </a>
+              {/* Github */}
+              <a href="https://www.github.com/gabriewf/LordCraft-Site" target="_blank" rel="noopener noreferrer" className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">
+                <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <Image className="fill-current w-4 h-4 mr-2" width="16" height="16" alt="Github" src="/github.svg" />
+                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                    Github
                   </span>
                 </button>
               </a>
