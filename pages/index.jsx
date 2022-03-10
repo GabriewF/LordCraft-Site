@@ -1,10 +1,15 @@
-import Head from "next/head"
-import Link from "next/link"
-import Image from "next/image"
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Home() {
+  const { t } = useTranslation("common");
+
   return (
-    <container>
+    <div id="container">
       <Head>
         {/* Metadata */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -30,7 +35,7 @@ export default function Home() {
         <meta name="twitter:image" content="../public/creeper.webp" />
 
         {/* Title */}
-        <title>Pagina inicial | LordCraft</title>
+        <title>{t("title")}</title>
       </Head>
       {/* Container */}
       <div id="container">
@@ -41,10 +46,10 @@ export default function Home() {
         >
           {/* Title */}
           <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
-            LordCraft 1.18.2
+            {t("titleText")}
           </h1>
           <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
-            Um servidor no Minecraft!
+            {t("titleDesc")}
           </p>
 
           {/* Link Buttons */}
@@ -53,7 +58,7 @@ export default function Home() {
               {/* How to play */}
               <Link
                 className="flex justify-center content-center text-slate-200"
-                href="/jogar"
+                href="/play"
               >
                 <a
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
@@ -68,7 +73,7 @@ export default function Home() {
                       src="/creeper.svg"
                     />
                     <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                      Jogar
+                      {t("playButton")}
                     </span>
                   </button>
                 </a>
@@ -90,7 +95,7 @@ export default function Home() {
                     src="/twitch.svg"
                   />
                   <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                    Twitch
+                    {t("twitchButton")}
                   </span>
                 </button>
               </a>
@@ -111,7 +116,7 @@ export default function Home() {
                     src="/youtube.svg"
                   />
                   <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                    Youtube
+                    {t("youtubeButton")}
                   </span>
                 </button>
               </a>
@@ -132,7 +137,7 @@ export default function Home() {
                     src="/github.svg"
                   />
                   <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                    Github
+                    {t("githubButton")}
                   </span>
                 </button>
               </a>
@@ -140,6 +145,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </container>
+    </div>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }

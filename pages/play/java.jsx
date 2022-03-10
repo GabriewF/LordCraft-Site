@@ -2,7 +2,12 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from 'next/image'
 
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 export default function Home() {
+  const { t } = useTranslation("playJava");
+
   return (
     <container>
       <Head>
@@ -30,7 +35,7 @@ export default function Home() {
         <meta name="twitter:image" content="../public/creeper.webp" />
 
         {/* Title */}
-        <title>Bedrock | LordCraft</title>
+        <title>{t("title")}</title>
       </Head>
       {/* Container */}
       <div id="container">
@@ -41,24 +46,19 @@ export default function Home() {
         >
           {/* Title */}
           <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
-            LordCraft 1.18.2
+            {t("titleText")}
           </h1>
           <p className="font-['MinecraftFiveBold'] animate-text-start text-3vw flex justify-center content-center text-slate-200">
-            Aqui está o IP do servidor Bedrock!
+            {t("titleDesc")}
           </p>
 
-          {/* Bedrock Address */}
-          <div id="bedrockAddress" className="mt-4">
-            {/* Bedrock */}
+          {/* Java Address */}
+          <div id="javaAddress" className="mt-4">
+            {/* Java */}
             <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
               <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
                 <span className="text-1.5vw font-['MinecraftFiveBold']">
-                  bedrock.lord-craft.tk
-                </span>
-              </button>
-              <button className="ml-3 bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
-                <span className="text-1.5vw font-['MinecraftFiveBold']">
-                  10015
+                  {t("javaIp")}
                 </span>
               </button>
             </p>
@@ -69,7 +69,7 @@ export default function Home() {
               {/* Go back */}
               <Link
                 className="flex justify-center content-center text-slate-200"
-                href="/jogar"
+                href="/play"
               >
                 <a
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
@@ -84,7 +84,7 @@ export default function Home() {
                       src="/back.svg"
                     />
                     <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                      Voltar a pagina anterior
+                      {t("goBack")}
                     </span>
                   </button>
                 </a>
@@ -95,4 +95,12 @@ export default function Home() {
       </div>
     </container>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["playJava"])),
+    },
+  };
 }

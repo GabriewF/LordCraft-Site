@@ -1,8 +1,13 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Head from 'next/head'
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
+
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Custom404() {
+  const { t } = useTranslation("notFound");
+
   return (
     <container>
       <Head>
@@ -30,7 +35,7 @@ export default function Custom404() {
         <meta name="twitter:image" content="../public/creeper.webp" />
 
         {/* Title */}
-        <title>Pagina não encontrada | LordCraft</title>
+        <title>{t("title")}</title>
       </Head>
       <div id="Container">
         <section>
@@ -40,10 +45,10 @@ export default function Custom404() {
           >
             <div id="title" className="text-5vw">
               <h1 className="font-['MinecraftFiveBold'] flex justify-center items-center text-justify text-slate-200">
-                404
+                {t("titleText")}
               </h1>
               <p className="font-['MinecraftTen'] flex justify-center items-center text-justify text-slate-200">
-                Pagina não encontrada
+                {t("titleDesc")}
               </p>
 
               <div id="linkButtons">
@@ -66,7 +71,7 @@ export default function Custom404() {
                           src="/back.svg"
                         />
                         <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
-                          Voltar a pagina inicial
+                          {t("goBack")}
                         </span>
                       </button>
                     </a>
@@ -79,4 +84,12 @@ export default function Custom404() {
       </div>
     </container>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["notFound"])),
+    },
+  };
 }
