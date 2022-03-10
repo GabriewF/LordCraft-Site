@@ -44,15 +44,15 @@ export default function Custom404() {
             className="w-screen h-screen animation-pulse bg-gradient-to-r from-sky-500 to-indigo-500 dark:bg-gradient-to-r dark:from-sky-700 dark:to-indigo-700 grid grid-cols-1 gap-2 place-content-center"
           >
             <div id="title" className="text-5vw">
-              <h1 className="font-['MinecraftFiveBold'] flex justify-center items-center text-justify text-slate-200">
+              <h1 className="font-MinecraftFiveBold flex justify-center items-center text-justify text-slate-200">
                 {t("titleText")}
               </h1>
-              <p className="font-['MinecraftTen'] flex justify-center items-center text-justify text-slate-200">
+              <p className="font-MinecraftTen flex justify-center items-center text-justify text-slate-200">
                 {t("titleDesc")}
               </p>
 
               <div id="linkButtons">
-                <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+                <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
                   {/* Go back */}
                   <Link
                     className="flex justify-center content-center text-slate-200"
@@ -68,9 +68,9 @@ export default function Custom404() {
                           width="16"
                           height="16"
                           alt="Back"
-                          src="/back.svg"
+                          src="/images/back.svg"
                         />
-                        <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                        <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                           {t("goBack")}
                         </span>
                       </button>

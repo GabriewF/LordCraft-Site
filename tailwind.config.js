@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'MinecraftTen': "MinecraftTen",
+      'MinecraftFiveBold': "MinecraftFiveBold",
+    },
     fontSize: {
       "1vw": "1vw",
       "1.5vw": "1.5vw",

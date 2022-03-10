@@ -45,24 +45,24 @@ export default function Home() {
           className="bg-gradient-to-r from-sky-500 to-indigo-500 dark:bg-gradient-to-r dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg "
         >
           {/* Title */}
-          <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
+          <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
             {t("titleText")}
           </h1>
-          <p className="font-['MinecraftFiveBold'] animate-text-start text-3vw flex justify-center content-center text-slate-200">
+          <p className="font-MinecraftFiveBold animate-text-start text-3vw flex justify-center content-center text-slate-200">
             {t("titleDesc")}
           </p>
 
           {/* Bedrock Address */}
           <div id="bedrockAddress" className="mt-4">
             {/* Bedrock */}
-            <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+            <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
               <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
-                <span className="text-1.5vw font-['MinecraftFiveBold']">
+                <span className="text-1.5vw font-MinecraftFiveBold">
                   {t("bedrockIp")}
                 </span>
               </button>
               <button className="ml-3 bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
-                <span className="text-1.5vw font-['MinecraftFiveBold']">
+                <span className="text-1.5vw font-MinecraftFiveBold">
                   {t("bedrockPort")}
                 </span>
               </button>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
 
           <div id="linkButtons">
-            <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+            <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
               {/* Go back */}
               <Link
                 className="flex justify-center content-center text-slate-200"
@@ -86,9 +86,9 @@ export default function Home() {
                       width="16"
                       height="16"
                       alt="Back"
-                      src="/back.svg"
+                      src="/images/back.svg"
                     />
-                    <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                    <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                       {t("goBack")}
                     </span>
                   </button>

@@ -45,16 +45,16 @@ export default function Home() {
           className="bg-gradient-to-r from-sky-500 to-indigo-500 dark:bg-gradient-to-r dark:from-sky-700 dark:to-indigo-700 p-24 m-5 rounded-lg "
         >
           {/* Title */}
-          <h1 className="font-['MinecraftTen'] text-5vw flex justify-center content-center text-slate-200">
+          <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
             {t("titleText")}
           </h1>
-          <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+          <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
             {t("titleDesc")}
           </p>
 
           {/* Link Buttons */}
-          <div id="linkButtons">
-            <p className="font-['MinecraftFiveBold'] text-3vw flex justify-center content-center text-slate-200">
+          <div id="linkButtons" className="">
+            <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
               {/* How to play */}
               <Link
                 className="flex justify-center content-center text-slate-200"
@@ -70,9 +70,9 @@ export default function Home() {
                       width="16"
                       height="16"
                       alt="Creeper"
-                      src="/creeper.svg"
+                      src="/images/creeper.svg"
                     />
-                    <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                    <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                       {t("playButton")}
                     </span>
                   </button>
@@ -92,9 +92,9 @@ export default function Home() {
                     width="16"
                     height="16"
                     alt="Twitch"
-                    src="/twitch.svg"
+                    src="/images/twitch.svg"
                   />
-                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                  <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                     {t("twitchButton")}
                   </span>
                 </button>
@@ -113,9 +113,9 @@ export default function Home() {
                     width="16"
                     height="16"
                     alt="Youtube"
-                    src="/youtube.svg"
+                    src="/images/youtube.svg"
                   />
-                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                  <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                     {t("youtubeButton")}
                   </span>
                 </button>
@@ -134,9 +134,9 @@ export default function Home() {
                     width="16"
                     height="16"
                     alt="Github"
-                    src="/github.svg"
+                    src="/images/github.svg"
                   />
-                  <span className="ml-2 text-1.5vw font-['MinecraftFiveBold']">
+                  <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                     {t("githubButton")}
                   </span>
                 </button>
