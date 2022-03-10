@@ -1,8 +1,16 @@
 {
   "title": "Bedrock | LordCraft",
   "titleText": "LordCraft 1.18.2",
-  "titleDesc": "Here is the Bedrock Server IP!",
+  "titleDesc": "Here is the Bedrock server IP!",
   "bedrockIp": "bedrock.lord-craft.tk",
   "bedrockPort": "10015",
-  "goBack": "Back to previous page"
+  "goBack": "Back to previous page",
+  "htmlDescrition": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogTitle": "Play on Minecraft Bedrock Edition",
+  "ogDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Play on Minecraft Bedrock Edition",
+  "twitterDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "twitterSite": "@LordCraft"
 }

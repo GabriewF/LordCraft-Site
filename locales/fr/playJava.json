@@ -1,7 +1,15 @@
 {
   "title": "Java | LordCraft",
   "titleText": "LordCraft 1.18.2",
-  "titleDesc": "Voici l'IP du serveur Java !",
+  "titleDesc": "Voici l'IP du serveur Java !",
   "javaIp": "java.lord-craft.tk",
-  "goBack": "Retour à la page précédente"
+  "goBack": "Retour à la page précédente",
+  "htmlDescrition": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "ogTitle": "Jouer sur Minecraft Java Edition",
+  "ogDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Jouer sur Minecraft Java Edition",
+  "twitterDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "twitterSite": "@LordCraft"
 }

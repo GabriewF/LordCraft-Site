@@ -1,6 +1,14 @@
 {
   "title": "Page not found | LordCraft",
   "titleText": "404",
-  "titleDesc": "Page Not Found",
-  "goBack": "Back to Home"
+  "titleDesc": "Page not found",
+  "goBack": "Back to homepage",
+  "htmlDescrition": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogTitle": "Page not found",
+  "ogDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord -craft.tk/",
+  "twitterTitle": "Page not found",
+  "twitterDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "twitterSite": "@LordCraft"
 }

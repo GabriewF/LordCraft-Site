@@ -1,9 +1,17 @@
 {
   "title": "Accueil | LordCraft",
   "titleText": "LordCraft 1.18.2",
-  "titleDesc": "Un serveur dans Minecraft!",
+  "titleDesc": "Un serveur dans Minecraft !",
   "playButton": "Play",
   "twitchButton": "Twitch",
   "youtubeButton": "Youtube",
-  "githubButton": "Github"
+  "githubButton": "Github",
+  "htmlDescrition": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, propriété du streamer LordLIVE_ et hébergé par PurpleHost",
+  "ogTitle": "Site officiel",
+  "ogDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, propriété du streamer LordLIVE_ et hébergé par PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Site officiel",
+  "twitterDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, propriété du streamer LordLIVE_ et hébergé par PurpleHost",
+  "twitterSite": "Un serveur dans Minecraft !0"
 }

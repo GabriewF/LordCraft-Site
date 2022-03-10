@@ -3,5 +3,13 @@
   "edition": "¿Cuál es su edición de Minecraft?",
   "editionJava": "Minecraft Java Edition",
   "editionBedrock": "Minecraft Bedrock Edition",
-  "goBack": "Volver a Inicio"
+  "goBack": "Volver a la página de inicio",
+  "htmlDescrition": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad de LordLIVE_ streamer y alojado por PurpleHost ",
+  "ogTitle": "¿Cuál es su plataforma?",
+  "ogDescription": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad de LordLIVE_ streamer y alojado por PurpleHost ",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "¿Cuál es su plataforma?",
+  "twitterDescription": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad de LordLIVE_ streamer y alojado por PurpleHost ",
+  "twitterSite": "@LordCraft"
 }

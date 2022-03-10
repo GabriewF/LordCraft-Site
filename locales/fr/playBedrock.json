@@ -4,5 +4,13 @@
   "titleDesc": "Voici l'IP du serveur Bedrock !",
   "bedrockIp": "bedrock.lord-craft.tk",
   "bedrockPort": "10015",
-  "goBack": "Retour à la page précédente"
+  "goBack": "Retour à la page précédente",
+  "htmlDescrition": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "ogTitle": "Jouer sur Minecraft Bedrock Edition",
+  "ogDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Jouer sur Minecraft Bedrock Edition",
+  "twitterDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "twitterSite": "@LordCraft"
 }

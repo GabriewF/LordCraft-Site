@@ -13,25 +13,19 @@ export default function Custom404() {
       <Head>
         {/* Metadata */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="description" content="" />
+        <meta name="description" content={t("htmlDescription")} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content="404" />
-        <meta
-          property="og:description"
-          content="O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost"
-        />
-        <meta property="og:site_name" content="LordCraft" />
-        <meta property="og:url" content="https://www.lord-craft.tk/404"></meta>
+        <meta property="og:title" content={t("ogTitle")} />
+        <meta property="og:description" content={t("ogDescription")} />
+        <meta property="og:site_name" content={t("ogSiteName")} />
+        <meta property="og:url" content="https://www.lord-craft.tk"></meta>
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content="404" />
-        <meta
-          name="twitter:description"
-          content="O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost"
-        />
-        <meta name="twitter:site" content="@LordCraft" />
-        <meta name="twitter:url" content="https://www.lord-craft.tk/404" />
+        <meta name="twitter:title" content={t("twitterTitle")} />
+        <meta name="twitter:description" content={t("twitterDescription")} />
+        <meta name="twitter:site" content={t("twitterSite")} />
+        <meta name="twitter:url" content="https://www.lord-craft.tk" />
         <meta name="twitter:image" content="../public/creeper.webp" />
 
         {/* Title */}
@@ -89,7 +83,7 @@ export default function Custom404() {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["notFound"])),
+      ...(await serverSideTranslations(locale, ["common", "notFound"])),
     },
   };
 }

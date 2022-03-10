@@ -1,6 +1,14 @@
 {
   "title": "Erro interno | LordCraft",
   "titleText": "500",
-  "titleDesc": "Error interno",
-  "goBack": "Voltar a pagina inicial"
+  "titleDesc": "Erro interno",
+  "goBack": "Voltar a pagina inicial",
+  "htmlDescrition": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
+  "ogTitle": "Erro interno",
+  "ogDescription": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Erro interno",
+  "twitterDescription": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
+  "twitterSite": "@LordCraft"
 }

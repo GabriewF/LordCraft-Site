@@ -5,5 +5,13 @@
   "playButton": "Play",
   "twitchButton": "Twitch",
   "youtubeButton": "Youtube",
-  "githubButton": "Github"
+  "githubButton": "Github",
+  "htmlDescrition": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad del streamer LordLIVE_ y alojado por PurpleHost",
+  "ogTitle": "Sitio web oficial",
+  "ogDescription": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad del streamer LordLIVE_ y alojado por PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Sitio web oficial",
+  "twitterDescription": "'LordCraft' es un servidor de supervivencia en la última versión de Minecraft, propiedad del streamer LordLIVE_ y alojado por PurpleHost",
+  "twitterSite": "¡Un servidor en Minecraft!0"
 }

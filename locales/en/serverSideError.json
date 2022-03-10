@@ -2,5 +2,13 @@
   "title": "Internal error | LordCraft",
   "titleText": "500",
   "titleDesc": "Internal Error",
-  "goBack": "Back to Home"
+  "goBack": "Back to Home",
+  "htmlDescrition": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogTitle": "Internal Error",
+  "ogDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord- craft.tk/",
+  "twitterTitle": "Internal Error",
+  "twitterDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "twitterSite": "@LordCraft"
 }

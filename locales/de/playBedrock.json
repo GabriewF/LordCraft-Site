@@ -1,8 +1,16 @@
 {
   "title": "Grundgestein | LordCraft",
   "titleText": "LordCraft 1.18.2",
-  "titleDesc": "Hier ist die IP des Bedrock-Servers!",
+  "titleDesc": "Hier ist die Bedrock-Server-IP!",
   "bedrockIp": "bedrock.lord-craft.tk",
   "bedrockPort": "10015",
-  "goBack": "Zurück zur vorherigen Seite"
+  "goBack": "Zurück zur vorherigen Seite",
+  "htmlDescrition": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
+  "ogTitle": "Auf Minecraft Bedrock Edition spielen",
+  "ogDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Auf Minecraft Bedrock Edition spielen",
+  "twitterDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
+  "twitterSite": "@LordCraft"
 }

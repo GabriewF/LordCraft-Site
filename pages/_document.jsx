@@ -1,12 +1,17 @@
 import { Html, Head, Main, NextScript, Meta } from "next/document"
 
 export default function Document() {
+
   return (
     <Html>
       <Head>
         {/* Ícones */}
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="/images/favicon.ico"
+        />
 
         <link
           rel="icon"

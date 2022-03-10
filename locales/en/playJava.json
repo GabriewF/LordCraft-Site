@@ -3,5 +3,13 @@
   "titleText": "LordCraft 1.18.2",
   "titleDesc": "Here is the Java server IP!",
   "javaIp": "java.lord-craft.tk",
-  "goBack": "Back to previous page"
+  "goBack": "Back to previous page",
+  "htmlDescrition": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogTitle": "Play on Minecraft Java Edition",
+  "ogDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "ogSiteName": "LordCraft",
+  "ogUrl": "https://www.lord-craft.tk/",
+  "twitterTitle": "Play on Minecraft Java Edition",
+  "twitterDescription": "'LordCraft' is a survival server in the latest version of Minecraft, owned by the LordLIVE_ streamer and hosted by PurpleHost",
+  "twitterSite": "@LordCraft"
 }
