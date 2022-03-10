@@ -1,4 +1,4 @@
-import '../public/styles/global.css'
+import "../public/styles/global.css"
 import { appWithTranslation } from "next-i18next";
 
 const App = ({ Component, pageProps }) => <Component {...pageProps} />;
