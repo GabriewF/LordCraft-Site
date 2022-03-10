@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useTranslation("common");
 
   return (
-    <div id="container">
+    <container>
       <Head>
         {/* Metadata */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -145,7 +145,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </container>
   );
 }
 
