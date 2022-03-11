@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-export default function Home() {
+const BedrockPage = () => {
   const { t } = useTranslation("playBedrock");
 
   return (
@@ -96,10 +96,12 @@ export default function Home() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export const getStaticProps = async ({ locale }) => {
   return {
     props: {
       ...(await serverSideTranslations(locale, "playBedrock")),
     },
   };
-}
+};
+
+export default BedrockPage

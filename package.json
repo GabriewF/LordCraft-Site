@@ -10,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "latest",
     "dotenv": "latest",
     "next": "latest",
     "next-i18next": "latest",
+    "pino-logflare": "latest",
     "react": "latest",
     "react-dom": "latest"
   },

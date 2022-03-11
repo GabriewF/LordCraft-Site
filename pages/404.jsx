@@ -5,7 +5,7 @@ import Head from "next/head";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-export default function Custom404() {
+const NotFound = () => {
   const { t } = useTranslation("notFound");
 
   return (
@@ -80,10 +80,12 @@ export default function Custom404() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export const getStaticProps = async ({ locale }) => {
   return {
     props: {
       ...(await serverSideTranslations(locale, ["common", "notFound"])),
     },
   };
-}
+};
+
+export default NotFound
