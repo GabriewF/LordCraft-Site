@@ -1,14 +1,16 @@
+
 {
-  "title": "Erro interno | LordCraft",
-  "titleText": "500",
-  "titleDesc": "Erro interno",
+  "title": "Twitch | LordCraft",
+  "titleText": "LIVE na Twitch",
+  "titleDesc": "Quer assistir a live do servidor?",
   "goBack": "Voltar para a pagina inicial",
+  "twitchButton": "Vamos para a pagina da Twitch?",
   "htmlDescrition": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
-  "ogTitle": "Erro interno",
+  "ogTitle": "Twitch",
   "ogDescription": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
   "ogSiteName": "LordCraft",
   "ogUrl": "https://www.lord-craft.tk/",
-  "twitterTitle": "Erro interno",
+  "twitterTitle": "Twitch",
   "twitterDescription": "O 'LordCraft' é um servidor survival na ultima versão do Minecraft, com propiedade do streamer LordLIVE_ e é hospedado pela PurpleHost",
   "twitterSite": "@LordCraft"
 }

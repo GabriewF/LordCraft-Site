@@ -42,7 +42,7 @@ const PlayPage = () => {
           <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
             LordCraft 1.18.2
           </h1>
-          <p className="font-MinecraftFiveBold animate-text-start text-3vw flex justify-center content-center text-slate-200">
+          <p className="font-MinecraftFiveBold animate-text-start text-2.5vw flex justify-center content-center text-slate-200">
             {t("edition")}
           </p>
 
