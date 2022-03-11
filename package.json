@@ -2,6 +2,7 @@
   "name": "lordcraft",
   "version": "0.1.0",
   "private": true,
+  "description": "A simple minecraft server site with Next.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -24,5 +25,22 @@
     "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriewf/LordCraft-Site.git"
+  },
+  "keywords": [
+    "Next",
+    "React",
+    "Node",
+    "Minecraft",
+    "minecraft-server"
+  ],
+  "author": "GabriewF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriewf/LordCraft-Site/issues"
+  },
+  "homepage": "https://github.com/gabriewf/LordCraft-Site"
 }
