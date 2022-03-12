@@ -107,7 +107,7 @@ const IndexPage = () => {
                   <Image
                     className="fill-current w-4 h-4 mr-2"
                     width="16"
-                    height="16"
+                    height="11"
                     alt="Youtube"
                     src="/images/YouTubeIcon.webp"
                   />
