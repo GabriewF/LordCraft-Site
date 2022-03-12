@@ -2,18 +2,18 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from 'next/image'
 
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import {useTranslation} from "next-i18next";
+import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 
 const BedrockPage = () => {
-  const { t } = useTranslation("playBedrock");
+  const {t} = useTranslation("playBedrock");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="description" content={t("htmlDescription")} />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="description" content={t("htmlDescription")}/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta property="og:title" content={t("ogTitle")} />
@@ -80,7 +80,7 @@ const BedrockPage = () => {
                       width="16"
                       height="16"
                       alt="Back"
-                      src="/images/back.svg"
+                      src="/images/Back.webp"
                     />
                     <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                       {t("goBack")}
