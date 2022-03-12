@@ -5,12 +5,12 @@
 @layer base {
   @font-face {
     font-family: MinecraftTen;
-    src: url(/public/fonts/MinecraftTen.woff2);
+    src: url(/fonts/MinecraftTen.woff2);
     font-display: swap;
   }
   @font-face {
     font-family: MinecraftFiveBold;
-    src: url(/public/fonts/MinecraftFive-Bold.woff2);
+    src: url(/fonts/MinecraftFive-Bold.woff2);
     font-display: swap;
   }
 }
