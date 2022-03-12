@@ -1,15 +1,16 @@
 {
   "title": "Играть | LordCraft",
-  "edition": "Какая у вас версия Minecraft?",
-  "editionJava": "Java-версия Minecraft",
-  "editionBedrock": "Бедрок-издание Minecraft",
-  "goBack": "Вернуться на главную страницу",
-  "htmlDescrition": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещенный на PurpleHost ",
+  "edition": "Какое у вас издание Minecraft?",
+  "editionTitle": "Играть!",
+  "editionJava": "Minecraft Java Edition",
+  "editionBedrock": "Minecraft Bedrock Edition",
+  "goBack": "Вернуться домой",
+  "htmlDescrition": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещен на PurpleHost",
   "ogTitle": "Какая у вас платформа?",
-  "ogDescription": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещенный на PurpleHost ",
+  "ogDescription": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещен на PurpleHost",
   "ogSiteName": "LordCraft",
   "ogUrl": "https://www.lord-craft.tk/",
   "twitterTitle": "Какая у вас платформа?",
-  "twitterDescription": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещенный на PurpleHost ",
-  "twitterSite": "@LordCraft"
+  "twitterDescription": "LordCraft — сервер выживания в последней версии Minecraft, принадлежащий стримеру LordLIVE_ и размещен на PurpleHost",
+  "twitterSite": "Какое у вас издание Minecraft?0"
 }

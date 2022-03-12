@@ -1,15 +1,16 @@
 {
   "title": "Wiedergabe | LordCraft",
   "edition": "Was ist Ihre Minecraft-Edition?",
+  "editionTitle": "Spielen!",
   "editionJava": "Minecraft Java Edition",
   "editionBedrock": "Minecraft Bedrock Edition",
   "goBack": "Zurück zur Startseite",
-  "htmlDescrition": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
+  "htmlDescrition": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und wird von PurpleHost gehostet",
   "ogTitle": "Was ist Ihre Plattform?",
-  "ogDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
+  "ogDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und wird von PurpleHost gehostet",
   "ogSiteName": "LordCraft",
   "ogUrl": "https://www.lord-craft.tk/",
   "twitterTitle": "Was ist Ihre Plattform?",
-  "twitterDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und von PurpleHost gehostet wird ",
-  "twitterSite": "@LordCraft"
+  "twitterDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem Streamer LordLIVE_ gehört und wird von PurpleHost gehostet",
+  "twitterSite": "Was ist Ihre Minecraft-Edition?0"
 }

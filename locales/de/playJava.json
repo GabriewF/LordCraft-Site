@@ -1,15 +1,15 @@
 {
   "title": "Java | LordCraft",
-  "titleText": "LordCraft 1.18.2",
-  "titleDesc": "Hier ist die IP des Java-Servers!",
+  "titleText": "Spielen wir!",
+  "titleDesc": "Hier ist die Java-Server-IP!",
   "javaIp": "java.lord-craft.tk",
   "goBack": "Zurück zur vorherigen Seite",
-  "htmlDescrition": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem LordLIVE_-Streamer gehört und von PurpleHost gehostet wird ",
-  "ogTitle": "Auf Minecraft Java Edition spielen",
-  "ogDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem LordLIVE_-Streamer gehört und von PurpleHost gehostet wird ",
+  "htmlDescrition": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, mit proprietärem von der LordLIVE_ Streamer und wird von PurpleHost gehostet",
+  "ogTitle": "In Minecraft Java Edition spielen",
+  "ogDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, mit proprietärem von der LordLIVE_ Streamer und wird von PurpleHost gehostet",
   "ogSiteName": "LordCraft",
   "ogUrl": "https://www.lord-craft.tk/",
-  "twitterTitle": "Auf Minecraft Java Edition spielen",
-  "twitterDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, der dem LordLIVE_-Streamer gehört und von PurpleHost gehostet wird ",
+  "twitterTitle": "In Minecraft Java Edition spielen",
+  "twitterDescription": "'LordCraft' ist ein Survival-Server in der neuesten Version von Minecraft, mit proprietärem von der LordLIVE_ Streamer und wird von PurpleHost gehostet",
   "twitterSite": "@LordCraft"
 }

@@ -1,9 +1,9 @@
 import Head from "next/head"
 import Link from "next/link"
-import Image from 'next/image'
 
 import {useTranslation} from "next-i18next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import LinkButton from "../../components/LinkButton";
 
 const PlayPage = () => {
   const {t} = useTranslation("playIndex");
@@ -40,7 +40,7 @@ const PlayPage = () => {
         >
           {/* Title */}
           <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
-            LordCraft 1.18.2
+            {t("editionTitle")}
           </h1>
           <p className="font-MinecraftFiveBold animate-text-start text-2.5vw flex justify-center content-center text-slate-200">
             {t("edition")}
@@ -87,28 +87,15 @@ const PlayPage = () => {
             <div id="linkButtons">
               <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
                 {/* Go back */}
-                <Link
-                  className="flex justify-center content-center text-slate-200"
-                  href="/"
-                >
-                  <a
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                    aria-current="page"
-                  >
-                    <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                      <Image
-                        className="fill-current w-4 h-4 mr-2"
-                        width="16"
-                        height="16"
-                        alt="Back"
-                        src="/images/BackIcon.webp"
-                      />
-                      <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
-                        {t("goBack")}
-                      </span>
-                    </button>
-                  </a>
-                </Link>
+                <LinkButton
+                  href={"/"}
+                  intr={true}
+                  w={16}
+                  h={16}
+                  alt={"Voltar"}
+                  src={"/images/BackIcon.webp"}
+                  text={t("goBack")}
+                />
               </p>
             </div>
           </div>

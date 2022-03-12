@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
+import LinkButton from "../components/LinkButton"
 
 import {useTranslation} from "next-i18next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
@@ -49,94 +48,47 @@ const IndexPage = () => {
           {/* Link Buttons */}
           <div id="linkButtons" className="">
             <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
-              {/* How to play */}
-              <Link
-                className="flex justify-center content-center text-slate-200"
-                href="/play"
-              >
-                <a
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  aria-current="page"
-                >
-                  <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                    <Image
-                      className="fill-current w-4 h-4 mr-2"
-                      width="16"
-                      height="16"
-                      alt="Creeper"
-                      src="/images/CreeperIcon.webp"
-                    />
-                    <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
-                      {t("playButton")}
-                    </span>
-                  </button>
-                </a>
-              </Link>
-              {/* Twitch */}
-              <Link
-                className="flex justify-center content-center text-slate-200"
-                href="/twitch"
-              >
-                <a
-                  className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  aria-current="page"
-                >
-                  <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                    <Image
-                      className="fill-current w-4 h-4 mr-2"
-                      width="16"
-                      height="16"
-                      alt="Creeper"
-                      src="/images/TwitchIcon.webp"
-                    />
-                    <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
-                    {t("twitchButton")}
-                    </span>
-                  </button>
-                </a>
-              </Link>
+              <LinkButton
+                href={"/play"}
+                intr={true}
+                w={16}
+                h={16}
+                alt={"Creeper"}
+                src={"/images/CreeperIcon.webp"}
+                text={t("playButton")}
+              />
+              <LinkButton
+                href={"/twitch"}
+                intr={true}
+                w={16}
+                h={16}
+                alt={"Twitch"}
+                src={"/images/TwitchIcon.webp"}
+                text={t("twitchButton")}
+                styles={"ml-3"}
+              />
               {/* Youtube */}
-              <a
-                href="https://www.youtube.com/channel/UChVBw8q75tPAdRkfWWgNm0w"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                aria-current="page"
-              >
-                <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <Image
-                    className="fill-current w-4 h-4 mr-2"
-                    width="16"
-                    height="11"
-                    alt="Youtube"
-                    src="/images/YouTubeIcon.webp"
-                  />
-                  <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
-                    {t("youtubeButton")}
-                  </span>
-                </button>
-              </a>
+              <LinkButton
+                href={"https://www.youtube.com/channel/UChVBw8q75tPAdRkfWWgNm0w"}
+                intr={false}
+                w={21}
+                h={16}
+                alt={"YouTube"}
+                src={"/images/YouTubeIcon.webp"}
+                text={t("youtubeButton")}
+                styles={"ml-3"}
+              />
               {/* Github */}
-              <a
-                href="https://www.github.com/gabriewf/LordCraft-Site"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ml-3 block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                aria-current="page"
-              >
-                <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <Image
-                    className="fill-current w-4 h-4 mr-2"
-                    width="16"
-                    height="16"
-                    alt="Github"
-                    src="/images/GitHubIcon.webp"
-                  />
-                  <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
-                    {t("githubButton")}
-                  </span>
-                </button>
-              </a>
+              <LinkButton
+                href={"https://www.github.com/gabriewf/LordCraft-Site"}
+                intr={false}
+                w={16}
+                h={16}
+                alt={"GitHub"}
+                src={"/images/GitHubIcon.webp"}
+                text={t("githubButton")}
+                styles={"ml-3"}
+              />
             </p>
           </div>
         </div>

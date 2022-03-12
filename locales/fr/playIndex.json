@@ -1,15 +1,16 @@
 {
   "title": "Jouer | LordCraft",
-  "edition": "Quelle est votre édition Minecraft ?",
+  "edition": "Quelle est votre édition Minecraft?",
+  "editionTitle": "Jouer!",
   "editionJava": "Minecraft Java Edition",
   "editionBedrock": "Minecraft Bedrock Edition",
-  "goBack": "Retour à la page d'accueil",
-  "htmlDescrition": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
-  "ogTitle": "Quelle est votre plateforme ?",
-  "ogDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
+  "goBack": "Retour à l'accueil",
+  "htmlDescrition": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et est hébergé par PurpleHost",
+  "ogTitle": "Quelle est votre plateforme?",
+  "ogDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et est hébergé par PurpleHost",
   "ogSiteName": "LordCraft",
   "ogUrl": "https://www.lord-craft.tk/",
-  "twitterTitle": "Quelle est votre plateforme ?",
-  "twitterDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et hébergé par PurpleHost ",
-  "twitterSite": "@LordCraft"
+  "twitterTitle": "Quelle est votre plateforme?",
+  "twitterDescription": "'LordCraft' est un serveur de survie dans la dernière version de Minecraft, détenu par le streamer LordLIVE_ et est hébergé par PurpleHost",
+  "twitterSite": "Quelle est votre édition Minecraft?"
 }
