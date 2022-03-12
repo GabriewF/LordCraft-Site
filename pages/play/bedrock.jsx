@@ -80,7 +80,7 @@ const BedrockPage = () => {
                       width="16"
                       height="16"
                       alt="Back"
-                      src="/images/Back.webp"
+                      src="/images/BackIcon.webp"
                     />
                     <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                       {t("goBack")}
