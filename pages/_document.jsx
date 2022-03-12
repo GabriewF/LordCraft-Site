@@ -83,8 +83,6 @@ const Document = () => {
           sizes="180x180"
           href="/images/Apple@180.webp"
         />
-        {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-        <title>Loading | LordCraft</title>
       </Head>
       <body className="animate-start animate-text-start dark:text-gray-200 dark:bg-zinc-900 bg-gray-200 text-zinc-900">
       <Main/>
