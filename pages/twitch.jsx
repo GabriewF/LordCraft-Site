@@ -2,33 +2,33 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-import { TwitchEmbed, TwitchChat, TwitchClip, TwitchPlayer } from 'react-twitch-embed';
+import {TwitchPlayer} from 'react-twitch-embed';
 
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import {useTranslation} from "next-i18next";
+import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 
 const IndexPage = () => {
-  const { t } = useTranslation("twitch");
+  const {t} = useTranslation("twitch");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="description" content={t("htmlDescription")} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="description" content={t("htmlDescription")}/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <meta property="og:title" content={t("ogTitle")} />
-        <meta property="og:description" content={t("ogDescription")} />
-        <meta property="og:site_name" content={t("ogSiteName")} />
+        <meta property="og:title" content={t("ogTitle")}/>
+        <meta property="og:description" content={t("ogDescription")}/>
+        <meta property="og:site_name" content={t("ogSiteName")}/>
         <meta property="og:url" content="https://www.lord-craft.tk"></meta>
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website"/>
 
-        <meta name="twitter:title" content={t("twitterTitle")} />
-        <meta name="twitter:description" content={t("twitterDescription")} />
-        <meta name="twitter:site" content={t("twitterSite")} />
-        <meta name="twitter:url" content="https://www.lord-craft.tk" />
-        <meta name="twitter:image" content="../public/creeper.webp" />
+        <meta name="twitter:title" content={t("twitterTitle")}/>
+        <meta name="twitter:description" content={t("twitterDescription")}/>
+        <meta name="twitter:site" content={t("twitterSite")}/>
+        <meta name="twitter:url" content="https://www.lord-craft.tk"/>
+        <meta name="twitter:image" content="../public/CreeperFace.webp"/>
 
         {/* Title */}
         <title>{t("title")}</title>
@@ -75,7 +75,7 @@ const IndexPage = () => {
                       width="16"
                       height="16"
                       alt="Creeper"
-                      src="/images/back.svg"
+                      src="/images/BackIcon.webp"
                     />
                     <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                       {t("goBack")}
@@ -97,7 +97,7 @@ const IndexPage = () => {
                     width="16"
                     height="16"
                     alt="Twitch"
-                    src="/images/twitch.svg"
+                    src="/images/TwitchIcon.webp"
                   />
                   <span className="ml-2 text-1.5vw font-MinecraftFiveBold">
                     {t("twitchButton")}
