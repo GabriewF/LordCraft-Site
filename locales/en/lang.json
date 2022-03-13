@@ -1,0 +1,225 @@
+{
+  "index":{
+    "page":{
+      "title":"Home | LordCraft"
+    },
+    "title":{
+      "text":"LordCraft 1.18.2",
+      "description":"A server in Minecraft!"
+    },
+    "button":{
+      "play":"Play",
+      "twitch":"Twitch",
+      "youtube":"Youtube",
+      "github":"Github."
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Official site",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Official site",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "notFound":{
+    "page":{
+      "title":"Page not found | LordCraft"
+    },
+    "title":{
+      "text":"404",
+      "description":"Page not found"
+    },
+    "button":{
+      "back":"Return to home page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Page not found",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Page not found",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "serverSideError":{
+    "page":{
+      "title":"Internal error | LordCraft"
+    },
+    "title":{
+      "text":"500",
+      "description":"Internal error"
+    },
+    "button":{
+      "back":"Return to home page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Internal error",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https: //www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Interal error",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "badRequest":{
+    "page":{
+      "title":"Bad request | LordCraft"
+    },
+    "title":{
+      "text":"400",
+      "description":"Bad request"
+    },
+    "button":{
+      "back":"Return to home page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Bad request",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https: //www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Bad request",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "play":{
+    "page":{
+      "title":"Play | LordCraft"
+    },
+    "title":{
+      "text":"Play!",
+      "description":"What is your Minecraft Edition?"
+    },
+    "edition":{
+      "java":"Minecraft Java Edition",
+      "bedrock":"Minecraft Bedrock Edition"
+    },
+    "button":{
+      "back":"Return to home page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"What is your platform?",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"What is your platform?",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"What is your Minecraft issue?"
+    }
+  },
+  "bedrock":{
+    "page":{
+      "title":"Bedrock | LordCraft"
+    },
+    "title":{
+      "text":"Let's Play!",
+      "description":"Here is the IP of the Bedrock server!"
+    },
+    "edition":{
+      "ip":"bedrock.lord-craft.tk",
+      "port":"10015"
+    },
+    "button":{
+      "back":"Return to previous page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Playing in Minecraft Bedrock Edition",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Playing in Minecraft Bedrock Edition",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "java":{
+    "page":{
+      "title":"Java | LordCraft"
+    },
+    "title":{
+      "text":"Let's Play!",
+      "description":"Here's the IP of the Java server!"
+    },
+    "edition":{
+      "ip":"java.lord-craft.tk"
+    },
+    "button":{
+      "back":"Return to previous page"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Play in Minecraft Java Edition",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/"
+    },
+    "twitter":{
+      "title":"Play in Minecraft Java Edition",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  },
+  "twitch":{
+    "page":{
+      "title":"Twitch | LordCraft"
+    },
+    "title":{
+      "text":"LIVE!",
+      "description":"Want to watch the Live?"
+    },
+    "button":{
+      "back":"Return to home page",
+      "twitch":"Let's go to the Twitch page?"
+    },
+    "html":{
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost"
+    },
+    "og":{
+      "title":"Twitch",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "siteName":"LordCraft",
+      "url":"https://www.lord-craft.tk/twitch"
+    },
+    "twitter":{
+      "title":"Twitch",
+      "description":"'LordCraft' is a survival server in the latest version of Minecraft, Streamer LordLIVE, and hosted by PurpleHost",
+      "site":"@LordCraft"
+    }
+  }
+}

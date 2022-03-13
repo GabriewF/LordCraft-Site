@@ -36,7 +36,10 @@ yarn-error.log*
 .vercel
 
 .env
-/.vscode
+
+# Ide
+.vscode
+.idea
 
 # Sentry
 .sentryclirc

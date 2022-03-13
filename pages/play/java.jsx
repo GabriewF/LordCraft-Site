@@ -1,34 +1,34 @@
 import Head from "next/head"
 
-import {useTranslation} from "next-i18next";
-import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import LinkButton from "../../components/LinkButton";
 
 const JavaPage = () => {
-  const {t} = useTranslation("playJava");
+  const {t} = useTranslation("lang");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="description" content={t("htmlDescription")}/>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="description" content={t("java.html.description")} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content={t("ogTitle")} />
-        <meta property="og:description" content={t("ogDescription")} />
-        <meta property="og:site_name" content={t("ogSiteName")} />
-        <meta property="og:url" content="https://www.lord-craft.tk"></meta>
+        <meta property="og:title" content={t("java.og.title")} />
+        <meta property="og:description" content={t("java.og.description")} />
+        <meta property="og:site_name" content={t("java.og.siteName")} />
+        <meta property="og:url" content={t("java.og.url")} />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content={t("twitterTitle")} />
-        <meta name="twitter:description" content={t("twitterDescription")} />
-        <meta name="twitter:site" content={t("twitterSite")} />
+        <meta name="twitter:title" content={t("java.twitter.title")} />
+        <meta name="twitter:description" content={t("java.twitter.description")} />
+        <meta name="twitter:site" content={t("java.twitter.site")} />
         <meta name="twitter:url" content="https://www.lord-craft.tk" />
-        <meta name="twitter:image" content="../public/creeper.webp" />
+        <meta name="twitter:image" content="/CreeperFace.webp" />
 
         {/* Title */}
-        <title>{t("title")}</title>
+        <title>{t("java.page.title")}</title>
       </Head>
       {/* Container */}
       <div id="container">
@@ -39,10 +39,10 @@ const JavaPage = () => {
         >
           {/* Title */}
           <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
-            {t("titleText")}
+            {t("java.title.text")}
           </h1>
           <p className="font-MinecraftFiveBold animate-text-start text-2.5vw flex justify-center content-center text-slate-200">
-            {t("titleDesc")}
+            {t("java.title.description")}
           </p>
 
           {/* Java Address */}
@@ -51,7 +51,7 @@ const JavaPage = () => {
             <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
               <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
                 <span className="text-1.5vw font-MinecraftFiveBold">
-                  {t("javaIp")}
+                  {t("java.edition.ip")}
                 </span>
               </button>
             </p>
@@ -67,7 +67,7 @@ const JavaPage = () => {
                 h={16}
                 alt={"Voltar"}
                 src={"/images/BackIcon.webp"}
-                text={t("goBack")}
+                text={t("java.button.back")}
               />
             </p>
           </div>
@@ -80,7 +80,7 @@ const JavaPage = () => {
 export const getStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, "playJava")),
+      ...(await serverSideTranslations(locale, "lang")),
     },
   };
 };

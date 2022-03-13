@@ -1,34 +1,34 @@
 import Head from "next/head";
 
-import {useTranslation} from "next-i18next";
-import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import LinkButton from "../components/LinkButton";
 
 const ServerSideErrorPage = () => {
-  const {t} = useTranslation("serverSideError");
+  const {t} = useTranslation("lang");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="description" content={t("htmlDescription")}/>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="description" content={t("serverSideError.html.description")} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content={t("ogTitle")} />
-        <meta property="og:description" content={t("ogDescription")} />
-        <meta property="og:site_name" content={t("ogSiteName")} />
-        <meta property="og:url" content="https://www.lord-craft.tk"></meta>
+        <meta property="og:title" content={t("serverSideError.og.title")} />
+        <meta property="og:description" content={t("serverSideError.og.description")} />
+        <meta property="og:site_name" content={t("serverSideError.og.siteName")} />
+        <meta property="og:url" content={t("serverSideError.og.url")} />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content={t("twitterTitle")} />
-        <meta name="twitter:description" content={t("twitterDescription")} />
-        <meta name="twitter:site" content={t("twitterSite")} />
+        <meta name="twitter:title" content={t("serverSideError.twitter.tile")} />
+        <meta name="twitter:description" content={t("serverSideError.twitter.description")} />
+        <meta name="twitter:site" content={t("serverSideError.twitter.site")} />
         <meta name="twitter:url" content="https://www.lord-craft.tk" />
-        <meta name="twitter:image" content="../public/creeper.webp" />
+        <meta name="twitter:image" content="/CreeperFace.webp" />
 
         {/* Title */}
-        <title>{t("title")}</title>
+        <title>{t("serverSideError.page.title")}</title>
       </Head>
       <div id="Container">
         <section>
@@ -38,10 +38,10 @@ const ServerSideErrorPage = () => {
           >
             <div id="title" className="text-5vw">
               <h1 className="font-MinecraftFiveBold flex justify-center items-center text-justify text-slate-200">
-                {t("titleText")}
+                {t("serverSideError.title.text")}
               </h1>
               <p className="font-MinecraftTen flex justify-center items-center text-justify text-slate-200">
-                {t("titleDesc")}
+                {t("serverSideError.title.description")}
               </p>
 
               <div id="linkButtons">
@@ -54,7 +54,7 @@ const ServerSideErrorPage = () => {
                     h={16}
                     alt={"Voltar"}
                     src={"/images/BackIcon.webp"}
-                    text={t("goBack")}
+                    text={t("serverSideError.button.back")}
                   />
                 </p>
               </div>
@@ -69,7 +69,7 @@ const ServerSideErrorPage = () => {
 export const getStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, "serverSideError")),
+      ...(await serverSideTranslations(locale, "lang")),
     },
   };
 };
