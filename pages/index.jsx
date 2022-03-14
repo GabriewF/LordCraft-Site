@@ -5,30 +5,30 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const IndexPage = () => {
-  const {t} = useTranslation("lang");
+  const { t } = useTranslation("lang");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="description" content={t("index.html.description")} />
+        <meta name="description" content={ t("index.html.description") } />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content={t("index.og.title")} />
-        <meta property="og:description" content={t("index.og.description")} />
-        <meta property="og:site_name" content={t("index.og.siteName")} />
-        <meta property="og:url" content={t("index.og.url")} />
+        <meta property="og:title" content={ t("index.og.title") } />
+        <meta property="og:description" content={ t("index.og.description") } />
+        <meta property="og:site_name" content={ t("index.og.siteName") } />
+        <meta property="og:url" content={ t("index.og.url") } />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content={t("index.twitter.title")} />
-        <meta name="twitter:description" content={t("index.twitter.description")} />
-        <meta name="twitter:site" content={t("index.twitter.site")} />
+        <meta name="twitter:title" content={ t("index.twitter.title") } />
+        <meta name="twitter:description" content={ t("index.twitter.description") } />
+        <meta name="twitter:site" content={ t("index.twitter.site") } />
         <meta name="twitter:url" content="https://www.lord-craft.tk" />
         <meta name="twitter:image" content="/CreeperFace.webp" />
 
         {/* Title */}
-        <title>{t("index.page.title")}</title>
+        <title>{ t("index.page.title") }</title>
       </Head>
       {/* Container */}
       <div id="container">
@@ -39,10 +39,10 @@ const IndexPage = () => {
         >
           {/* Title */}
           <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
-            {t("index.title.text")}
+            { t("index.title.text") }
           </h1>
           <p className="font-MinecraftFiveBold text-2.5vw flex justify-center content-center text-slate-200">
-            {t("index.title.description")}
+            { t("index.title.description") }
           </p>
 
           {/* Link Buttons */}
@@ -55,7 +55,7 @@ const IndexPage = () => {
                 h={16}
                 alt={"Creeper"}
                 src={"/images/CreeperIcon.webp"}
-                text={t("index.button.play")}
+                text={ t("index.button.play") }
               />
               <LinkButton
                 href={"/twitch"}
@@ -64,7 +64,7 @@ const IndexPage = () => {
                 h={16}
                 alt={"Twitch"}
                 src={"/images/TwitchIcon.webp"}
-                text={t("index.button.twitch")}
+                text={ t("index.button.twitch") }
                 styles={"ml-3"}
               />
               {/* Youtube */}
@@ -77,7 +77,7 @@ const IndexPage = () => {
                 h={16}
                 alt={"YouTube"}
                 src={"/images/YouTubeIcon.webp"}
-                text={t("index.button.youtube")}
+                text={ t("index.button.youtube") }
                 styles={"ml-3"}
               />
               {/* Github */}
@@ -88,7 +88,7 @@ const IndexPage = () => {
                 h={16}
                 alt={"GitHub"}
                 src={"/images/GitHubIcon.webp"}
-                text={t("index.button.github")}
+                text={ t("index.button.github") }
                 styles={"ml-3"}
               />
             </p>

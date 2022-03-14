@@ -5,30 +5,30 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import LinkButton from "../../components/LinkButton";
 
 const BedrockPage = () => {
-  const {t} = useTranslation("lang");
+  const { t } = useTranslation("lang");
 
   return (
     <container>
       <Head>
         {/* Metadata */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="description" content={t("bedrock.html.description")} />
+        <meta name="description" content={ t("bedrock.html.description") } />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content={t("bedrock.og.title")} />
-        <meta property="og:description" content={t("bedrock.og.description")} />
-        <meta property="og:site_name" content={t("bedrock.og.siteName")} />
-        <meta property="og:url" content={t("bedrock.og.url")} />
+        <meta property="og:title" content={ t("bedrock.og.title") } />
+        <meta property="og:description" content={ t("bedrock.og.description") } />
+        <meta property="og:site_name" content={ t("bedrock.og.siteName") } />
+        <meta property="og:url" content={ t("bedrock.og.url") } />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content={t("bedrock.twitter.title")} />
-        <meta name="twitter:description" content={t("bedrock.twitter.description")} />
-        <meta name="twitter:site" content={t("bedrock.twitter.site")} />
+        <meta name="twitter:title" content={ t("bedrock.twitter.title") } />
+        <meta name="twitter:description" content={ t("bedrock.twitter.description") } />
+        <meta name="twitter:site" content={ t("bedrock.twitter.site") } />
         <meta name="twitter:url" content="https://www.lord-craft.tk" />
         <meta name="twitter:image" content="/CreeperFace.webp" />
 
         {/* Title */}
-        <title>{t("bedrock.page.title")}</title>
+        <title>{ t("bedrock.page.title") }</title>
       </Head>
       {/* Container */}
       <div id="container">
@@ -39,10 +39,10 @@ const BedrockPage = () => {
         >
           {/* Title */}
           <h1 className="font-MinecraftTen text-5vw flex justify-center content-center text-slate-200">
-            {t("bedrock.title.text")}
+            { t("bedrock.title.text") }
           </h1>
           <p className="font-MinecraftFiveBold animate-text-start text-2.5vw flex justify-center content-center text-slate-200">
-            {t("bedrock.title.description")}
+            { t("bedrock.title.description") }
           </p>
 
           {/* Bedrock Address */}
@@ -51,12 +51,12 @@ const BedrockPage = () => {
             <p className="font-MinecraftFiveBold text-3vw flex justify-center content-center text-slate-200">
               <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
                 <span className="text-1.5vw font-MinecraftFiveBold">
-                  {t("bedrock.edition.ip")}
+                  { t("bedrock.edition.ip") }
                 </span>
               </button>
               <button className="ml-3 bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex cursor-not-allowed">
                 <span className="text-1.5vw font-MinecraftFiveBold">
-                  {t("bedrock.edition.port")}
+                  { t("bedrock.edition.port") }
                 </span>
               </button>
             </p>
@@ -72,7 +72,7 @@ const BedrockPage = () => {
                 h={16}
                 alt={"Voltar"}
                 src={"/images/BackIcon.webp"}
-                text={t("bedrock.button.back")}
+                text={ t("bedrock.button.back") }
               />
             </p>
           </div>
