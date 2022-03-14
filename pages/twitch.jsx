@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-import {TwitchPlayer} from 'react-twitch-embed';
+import { TwitchPlayer } from 'react-twitch-embed';
 
-import {useTranslation} from "next-i18next";
-import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import LinkButton from "../components/LinkButton";
 
 const IndexPage = () => {
-  const {t} = useTranslation("lang");
+  const { t } = useTranslation("lang");
 
   return (
     <container>

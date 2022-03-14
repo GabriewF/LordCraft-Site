@@ -11,7 +11,7 @@
       "play": "Jogar",
       "twitch": "Twitch",
       "youtube": "YouTube",
-      "github": "Github."
+      "github": "Github"
     },
     "html": {
       "description": "'LordCraft' é um servidor survival na última versão do Minecraft, do Streamer LordLIVE, e hospedado pela PurpleHost"
@@ -115,8 +115,8 @@
       "description": "Qual é a sua edição Minecraft?"
     },
     "edition": {
-      "java": "Minecraft Java Edition.",
-      "bedrock": "Minecraft Bedrock Edition."
+      "java": "Minecraft Java Edition",
+      "bedrock": "Minecraft Bedrock Edition"
     },
     "button": {
       "back": "Voltar á página inicial"
@@ -146,7 +146,7 @@
     },
     "edition": {
       "ip": "bedrock.lord-craft.tk",
-      "port": "10015."
+      "port": "10015"
     },
     "button": {
       "back": "Voltar à página anterior"
