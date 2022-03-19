@@ -1,55 +1,56 @@
 {
   "name": "lordcraft",
   "version": "0.1.0",
+  "description": "A simple NextJS site",
+  "packageManager": "pnpm@6.32.3",
   "private": true,
-  "description": "A simple minecraft server site with Next.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
-    "@sentry/nextjs": "^6.18.2",
-    "next": "^12.1.0",
-    "next-i18next": "^10.5.0",
-    "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-twitch-embed": "^2.1.0"
+    "cross-env": "^7.0.3",
+    "next": "12.1.0",
+    "next-plugin-preact": "^3.0.6",
+    "preact": "^10.6.6",
+    "preact-render-to-string": "^5.1.20",
+    "react": "npm:@preact/compat@17.0.3",
+    "react-dom": "npm:@preact/compat@17.0.3",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0"
   },
   "devDependencies": {
-    "@parvineyvazov/json-translator": "^0.7.1",
-    "autoprefixer": "^10.4.2",
+    "@next/bundle-analyzer": "^12.1.0",
+    "autoprefixer": "^10.4.4",
     "eslint": "^8.10.0",
     "eslint-config-next": "^12.1.0",
     "eslint-config-prettier": "^8.5.0",
-    "postcss": "^8.4.8",
     "prettier": "^2.5.1",
     "prettier-eslint": "^13.0.0",
     "prettier-stylelint": "^0.4.2",
     "stylelint": "^14.5.3",
     "stylelint-config-prettier": "^9.0.3",
-    "tailwindcss": "^3.0.23",
-    "ty": "^0.0.1",
-    "typescript": "^4.6.2"
+    "next-i18next": "^10.5.0",
+    "postcss": "^8.4.12",
+    "react-twitch-embed": "^2.1.0",
+    "sharp": "^0.30.3",
+    "tailwindcss": "^3.0.23"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabriewf/LordCraft-Site.git"
+    "url": "git+https://github.com/gabriewf/LordCraft-with-Preact-and-NextJS.git"
   },
   "keywords": [
-    "Next",
-    "React",
-    "Node",
-    "Minecraft",
-    "minecraft-server"
+    "Preact",
+    "NextJS",
+    "TailwindCSS"
   ],
   "author": "GabriewF",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabriewf/LordCraft-Site/issues"
+    "url": "https://github.com/gabriewf/LordCraft-with-Preact-and-NextJS/issues"
   },
-  "homepage": "https://github.com/gabriewf/LordCraft-Site"
+  "homepage": "https://github.com/gabriewf/LordCraft-with-Preact-and-NextJS#readme"
 }

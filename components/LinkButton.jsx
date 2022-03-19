@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link"
+import Image from 'next/image'
+import Link from 'next/link'
 
-function LinkButton(props, {children}) {
+function LinkButton(props, { children }) {
   if (props.intr === true) {
     return (
       <Link
@@ -12,8 +12,7 @@ function LinkButton(props, {children}) {
           className={`${props.styles} block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
           aria-current="page"
         >
-          <button
-            className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+          <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
             <Image
               className="fill-current w-4 h-4 mr-2"
               width={props.w}
@@ -37,8 +36,7 @@ function LinkButton(props, {children}) {
         className={`${props.styles} block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
         aria-current="page"
       >
-        <button
-          className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+        <button className="bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
           <Image
             className="fill-current w-4 h-4 mr-2"
             width={props.w}
@@ -53,7 +51,6 @@ function LinkButton(props, {children}) {
       </a>
     )
   }
-
 }
 
 export default LinkButton

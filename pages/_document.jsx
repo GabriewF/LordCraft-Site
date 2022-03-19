@@ -1,7 +1,6 @@
-import {Head, Html, Main, NextScript} from "next/document"
+import { Head, Html, Main, NextScript } from 'next/document'
 
 const Document = () => {
-
   return (
     <Html>
       <Head>
@@ -88,12 +87,12 @@ const Document = () => {
           href="/_next/image?url=/images/Apple@180.webp&w=180&q=75"
         />
       </Head>
-      <body className="animate-start animate-text-start dark:text-gray-200 dark:bg-zinc-900 bg-gray-200 text-zinc-900">
+      <body className="antialiased animate-start animate-text-start dark:text-gray-200 dark:bg-zinc-900 bg-gray-200 text-zinc-900">
         <Main />
         <NextScript />
       </body>
     </Html>
-  );
+  )
 }
 
 export default Document
